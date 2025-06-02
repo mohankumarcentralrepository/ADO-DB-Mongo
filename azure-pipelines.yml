@@ -11,9 +11,9 @@ stages:
       inputs:
         connectionType: 'Kubernetes Service Connection'
         #azureSubscription: 'k8sconnection'
-        kubernetesServiceEndpoint: 'k8sconnection'
-        azureResourceGroup: 'dev-env'
-        kubernetesCluster: 'dev-cluster'
+        kubernetesServiceEndpoint: 'azureconnection'
+        azureResourceGroup: 'dev-env1'
+        kubernetesCluster: 'dev-cluster1'
         namespace: 'three-tier'
         command: 'apply'
         arguments: '-f DB/database.yml'
