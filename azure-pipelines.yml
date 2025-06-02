@@ -1,5 +1,5 @@
 pool:
-  name: 'rollout'
+  name: 'default'
 
 stages:
 - stage: Deploy
